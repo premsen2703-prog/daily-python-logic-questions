@@ -1,0 +1,5 @@
+* what is indentation?
+= indentation refers to the space at the begenning of a code line.
+= it's for readability, in python it's easy to implement.
+= it's for indicating a block of code.
+= 

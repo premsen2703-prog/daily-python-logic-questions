@@ -1,0 +1,12 @@
+* what is comments in python ?
+= comments use for explain block of code.
+= it can used to make the code more readable.
+= it prevent to execute that current text line of code
+= its denoted by # .
+= it can be placed at end of line,python will ignore the rest of the code after the # .
+* what is multiline comments ?
+= there is no syntax for multiline comments,you have to use # in each line for ignoring them .
+= not quite as intended, you can use a multiline string. 
+= use can use triple quotes(""" """ or ''' ''') for multiline comments, 
+= place your comment inside these triple qoutes.
+
