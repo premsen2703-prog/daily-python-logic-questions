@@ -1,4 +1,8 @@
 total_days = int(input("Enter Total Days: "))
-weeks = total_days // 7
-days = total_days % 7
-print(f"In {total_days}days there is {weeks} weeks and {days} days ")
+
+if total_days < 0:
+    print("Total days cannot be negative.")
+else:
+    weeks = total_days // 7
+    days = total_days % 7
+    print(f"In {total_days} days there are {weeks} weeks and {days} days")
