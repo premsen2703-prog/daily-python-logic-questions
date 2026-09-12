@@ -1,0 +1,6 @@
+principal = float(input("Enter Pricipal(starting Amount): "))
+rate = float(input("Enter Rate of Annual interest: "))
+time = float(input("Enter Time(in year): "))
+n = float(input("Enter No. of Compounding period per year: "))
+Compound_interest = principal * (1 + rate / n) ** (n * time)
+print(f"Compound Interest = {Compound_interest}")
