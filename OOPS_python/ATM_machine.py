@@ -11,10 +11,10 @@ class ATM:
         ATM.__counter = ATM.__counter+1
 
         self.menu()
-    @staticmethod
+    @staticmethod #staticmethods which uses static variable
     def get_counter(self):
         return ATM.__counter
-    @staticmethod
+    @staticmethod #staticmethods which uses static variable
     def set_counter(self,new):
         if type(new) == int:
             ATM.__counter = new
